@@ -64,7 +64,11 @@ p{
   position:absolute;
   right:30%;
 }
-
+@media (max-width:1028px) {
+  .title-image{
+    position :static;
+  }
+}
 /*Id features*/
 #features{
   padding:3% 15% 3%;
